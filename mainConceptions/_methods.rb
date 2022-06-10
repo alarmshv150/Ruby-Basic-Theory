@@ -1,8 +1,12 @@
+#return
+
 def multiplication(number)
   return number * (5)
 end
 
 puts multiplication(20)
+
+#puts inside
 
 def square(num) # parameter
   puts num ** 2
@@ -10,18 +14,19 @@ end
 
 square(5) # argument 
 
+#without parameter
+
 def greeting
   puts "Hello world"
 end
 
 greeting()
 
-#block
+#without return
 
-2.times do
-  puts "code block"
+def number(x,y)
+  puts x * y
 end
 
-#times
+number(4,5)
 
-3.times {puts "one line code block"}
